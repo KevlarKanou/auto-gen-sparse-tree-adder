@@ -346,5 +346,6 @@ hs_err_pid*
 
 # output
 *.v
+*.sv
 *.fir
 *.anno.json

@@ -9,11 +9,11 @@ Tested bit width: 4bits, 8bits, 16bits, 32bits, 64bits, 128bits, 256bits
 ## Generate verilog file
 
 ```
-sbt "runMain Adder.Gen"
+mill -i Adder
 ```
 
 ## Verify with z3 prover
 
 ```
-sbt test
+mill -i __.test
 ```
